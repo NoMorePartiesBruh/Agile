@@ -26,11 +26,11 @@ public class Main {
 			case "1":
 				if (loginMenu()) {
 					System.out.println("User has logged in!\n");
-					System.out.println("Welcome User");
+					System.out.println("Hello User!, Welcome to...");
 					mainMenu();
 				} else {
-					System.out.println("Error: Failed login...");
-					System.out.println("Please Try Again");
+					System.out.println("ERROR: Failed to login...");
+					System.out.println("Your Email or Password is invalid");
 					System.out.println("\nPress enter to continue...");
 					
 					sc.nextLine();
