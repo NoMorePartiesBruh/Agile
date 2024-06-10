@@ -26,9 +26,11 @@ public class Main {
 			case "1":
 				if (loginMenu()) {
 					System.out.println("User has logged in!\n");
+					System.out.println("Welcome User");
 					mainMenu();
 				} else {
-					System.out.println("Failed login...");
+					System.out.println("Error: Failed login...");
+					System.out.println("Please Try Again");
 					System.out.println("\nPress enter to continue...");
 					
 					sc.nextLine();
@@ -37,9 +39,11 @@ public class Main {
 				
 			case "2":
 				if (registerMenu()) {
-					System.out.println("User registered!\n");
+					System.out.println("Success\n");
+					System.out.println("User has been registered!\n");
 				} else {
-					System.out.println("Failed register...");
+					System.out.println("Error: Failed register...");
+					System.out.println("Please Try Again!");
 					System.out.println("\nPress enter to continue...");
 					
 					sc.nextLine();
