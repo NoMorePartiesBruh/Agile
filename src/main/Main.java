@@ -18,14 +18,14 @@ public class Main {
 		do {
 			System.out.println("Welcome:");
 			System.out.println("1. Login");
-			System.out.println("2. Register"	);
+			System.out.println("2. Register");
 			
 			System.out.print("\nSelect: ");
 			
 			switch (sc.nextLine()) {
 			case "1":
 				if (loginMenu()) {
-					System.out.println("User logged in!\n");
+					System.out.println("User has logged in!\n");
 					mainMenu();
 				} else {
 					System.out.println("Failed login...");
