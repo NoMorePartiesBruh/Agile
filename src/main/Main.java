@@ -39,10 +39,11 @@ public class Main {
 				
 			case "2":
 				if (registerMenu()) {
-					System.out.println("Success, User has been registered\n");
+					System.out.println("Success\n");
+					System.out.println("User has been registered!\n");
 				} else {
-					System.out.println("ERROR: Failed register...");
-					System.out.println("Make sure your email or password is valid");
+					System.out.println("Error: Failed register...");
+					System.out.println("Please Try Again!");
 					System.out.println("\nPress enter to continue...");
 					
 					sc.nextLine();
